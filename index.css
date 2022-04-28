@@ -1,0 +1,125 @@
+*{
+    border:0;
+    margin:0;
+    background-color: lightblue;
+}
+
+.counter-name {
+    display:flex;
+    font-size:30px;
+    color:darkred;
+    -webkit-text-stroke:2px black;
+    justify-content: center;
+    margin-top:100px;
+}
+
+#cur-count {
+    font-family: arial,sans-serif;
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+    font-size:50px;
+    font-weight: 800;
+
+}
+
+.btn-increase,.btn-decrease {
+    font-size: 20px;
+    color:white;
+    font-weight: 700;
+    background-color:darkred;
+    border:1px solid black;
+    cursor:pointer;
+    margin: 10px;
+    border-radius:5px;
+    padding:10px 20px;
+}
+
+.button-container {
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+
+
+}
+
+@media (max-width:440px){
+
+    .button-container {
+        display:flex;
+        justify-content: center;
+        margin-top:30px;
+        flex-direction:column;
+
+    }
+
+}
+
+@media (max-width:200px){
+
+    .button-container {
+        display:flex;
+        justify-content: center;
+        margin-top:30px;
+        flex-direction:column;
+
+    }
+
+    .btn-increase,.btn-decrease {
+        font-size: 15px;
+        color:white;
+        font-weight: 700;
+        background-color:darkred;
+        border:1px solid black;
+        cursor:pointer;
+        margin: 10px;
+        border-radius:5px;
+        padding:10px 20px;
+    }
+
+    .counter-name {
+
+        font-size:18px;
+
+    }
+
+
+}
+
+@media (max-width:120px){
+
+    .button-container {
+        display:flex;
+        justify-content: center;
+        margin-top:30px;
+        flex-direction:column;
+
+    }
+
+    .btn-increase,.btn-decrease {
+        font-size: 10px;
+        color:white;
+        font-weight: 700;
+        background-color:darkred;
+        border:1px solid black;
+        cursor:pointer;
+        margin: 10px;
+        border-radius:5px;
+        padding:6px 12px;
+    }
+
+    .counter-name {
+
+        font-size:12px;
+
+    }
+
+    #cur-count {
+
+        font-size:30px;
+    }
+
+
+}
+
+
